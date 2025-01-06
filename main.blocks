@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="device_forever" id="18z7?cCF1acRkd:F$]3d" x="-354" y="-358"><statement name="HANDLER"><block type="device_show_leds" id="=c=-$wvCU%C-^7]5=VZi"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="controls_if" id="~rQ]4TOOS.Y%BZyU#L8["><value name="IF0"><shadow type="logic_boolean" id="[`L#O2Y+o5PNAZArT@I#"><field name="BOOL">TRUE</field></shadow><block type="deviceisgesture" id=":bxt/:_9Wn$F3(*|Oq*|"><field name="gesture">Gesture.Shake</field></block></value><statement name="DO0"><block type="music_playable_play" id="WG`fR,hjM?ZF]?U2H%*v"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="music_string_playable" id="l!9+rYH1x,U:#IF(=23O"><value name="melody"><shadow type="melody_editor" id=".GY:zLK;$i[}hlBD_x28"><field name="melody">"C5 B C5 B C5 B C5 B "</field></shadow></value><value name="bpm"><shadow type="math_number_minmax" id="YH/?79=p/yO.QDRGWn1U"><mutation min="40" max="500" label="Bpm" precision="0"></mutation><field name="SLIDER">200</field></shadow></value></shadow></value></block></statement></block></next></block></statement></block><block type="melody_on_event" id="mZllX!xoH]Gv}I6t+_Na" x="476" y="-289"><field name="value">MusicEvent.MelodyStarted</field><statement name="HANDLER"><block type="device_show_leds" id="?lVZ+N$JIQ05*~Vy+;*f"><field name="LEDS">`
+        # # # # # 
+        . . . . . 
+        # # # # # 
+        . . . . . 
+        # # # # #
+        `</field><next><block type="device_pause" id="J;Xe4Q:j;IKV$=1AK]L%"><value name="pause"><shadow type="timePicker" id="_+]f+0!.eJ0MEkgd=n~F"><field name="ms">1000</field></shadow></value><next><block type="device_show_leds" id="P|UmhM9UbbHfL+lKL?2X"><field name="LEDS">`
+        . . . . . 
+        # # # # # 
+        . . . . . 
+        # # # # # 
+        . . . . .
+        `</field></block></next></block></next></block></statement></block></xml>
